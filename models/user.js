@@ -28,10 +28,10 @@ const userSchema = Schema(
       type: Boolean,
       default: true,
     },
-    verificationToken: {
-      type: String,
-      required: [true, "Verify token is required"],
-    },
+    // verificationToken: {
+    //   type: String,
+    //   required: [true, "Verify token is required"],
+    // },
   },
   { versionKey: false, timestamps: true }
 );
